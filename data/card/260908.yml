@@ -5,13 +5,13 @@ about:
   head: 2404ace
   archived: false
   latestVersion: "v0.26.2"
-  collectedAt: 2026-09-08T01:35:39Z
+  collectedAt: 2026-09-08T04:42:30Z
 timeline:
   created: 2020-09-10
   lastCommit: 2026-09-05
   lastRelease: 2026-07-26
 popularity:
-  star: 8063
+  star: 8062
   watcher: 25
   fork: 144
   release: 40
@@ -83,7 +83,7 @@ total:
   commit: 1861
 ---
 path: /home/runner/.x-repo/github.com/ducaale/xh
-collectedAt: 2026-09-08T01:35:41Z
+collectedAt: 2026-09-08T04:42:32Z
 loc:
   Rust:
     code: 13792
