@@ -22,7 +22,17 @@ x install xh
 - **Latest**: `v0.26.2` (2026-07-26)
 - **Last commit**: 2026-09-05
 - **Assets in release**: 6
-- **Published**: 2026-07-26T14:22:45Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [xh-v0.26.2-aarch64-apple-darwin.tar.gz](https://github.com/ducaale/xh/releases/download/v0.26.2/xh-v0.26.2-aarch64-apple-darwin.tar.gz) | 4.0 MiB | `native/darwin/arm64` |
+| [xh-v0.26.2-aarch64-unknown-linux-musl.tar.gz](https://github.com/ducaale/xh/releases/download/v0.26.2/xh-v0.26.2-aarch64-unknown-linux-musl.tar.gz) | 4.0 MiB | `native/linux/arm64/musl` |
+| [xh-v0.26.2-arm-unknown-linux-gnueabihf.tar.gz](https://github.com/ducaale/xh/releases/download/v0.26.2/xh-v0.26.2-arm-unknown-linux-gnueabihf.tar.gz) | 3.7 MiB | `native/linux/arm/glibc` |
+| [xh-v0.26.2-x86_64-apple-darwin.tar.gz](https://github.com/ducaale/xh/releases/download/v0.26.2/xh-v0.26.2-x86_64-apple-darwin.tar.gz) | 4.2 MiB | `native/darwin/x64` |
+| [xh-v0.26.2-x86_64-pc-windows-msvc.zip](https://github.com/ducaale/xh/releases/download/v0.26.2/xh-v0.26.2-x86_64-pc-windows-msvc.zip) | 4.1 MiB | `native/win/x64` |
+| [xh-v0.26.2-x86_64-unknown-linux-musl.tar.gz](https://github.com/ducaale/xh/releases/download/v0.26.2/xh-v0.26.2-x86_64-unknown-linux-musl.tar.gz) | 4.4 MiB | `native/linux/x64/musl` |
 
 ## Popularity
 
@@ -67,8 +77,8 @@ Lowest-scoring checks:
 Install metadata for xh lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `xh` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/xh.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/xh.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:38:18Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:00:59Z._
