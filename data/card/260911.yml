@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.26.2"
   latestRelease: "v0.26.2"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T04:34:31Z
+  collectedAt: 2026-09-11T20:25:44Z
 timeline:
   created: 2020-09-10
   lastCommit: 2026-09-05
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-07-26
   lastPrerelease: 
 popularity:
-  star: 8066
+  star: 8068
   watcher: 25
   fork: 144
   release: 40
@@ -87,7 +87,7 @@ total:
   commit: 1861
 ---
 path: /home/runner/.x-repo/github.com/ducaale/xh
-collectedAt: 2026-09-11T04:34:33Z
+collectedAt: 2026-09-11T20:25:46Z
 loc:
   Rust:
     code: 13792
