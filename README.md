@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 2 | 0 | 3 | 0 | 3 |
-| last60d | 2026-07-15 | 1 | 2 | 1 | 4 | 1 | 7 |
-| 90d | 2026-06-15 | 2 | 5 | 1 | 6 | 1 | 16 |
-| last180d | 2026-03-17 | 2 | 7 | 2 | 7 | 3 | 31 |
-| 360d | 2025-09-18 | 4 | 20 | 2 | 17 | 5 | 103 |
-| last720d | 2024-09-23 | 8 | 41 | 3 | 30 | 11 | 222 |
+| 30d | 2026-08-15 | 0 | 2 | 0 | 3 | 0 | 3 |
+| last60d | 2026-07-16 | 1 | 2 | 1 | 4 | 1 | 5 |
+| 90d | 2026-06-16 | 2 | 5 | 1 | 6 | 1 | 9 |
+| last180d | 2026-03-18 | 2 | 7 | 2 | 7 | 3 | 30 |
+| 360d | 2025-09-19 | 4 | 20 | 2 | 17 | 5 | 94 |
+| last720d | 2024-09-24 | 8 | 41 | 3 | 30 | 11 | 222 |
 
 ## Release assets
 
@@ -75,23 +75,6 @@ Lowest-scoring checks:
 | [xh-v0.26.2-x86_64-pc-windows-msvc.zip](https://github.com/ducaale/xh/releases/download/v0.26.2/xh-v0.26.2-x86_64-pc-windows-msvc.zip) | 4.1 MiB | `native/win/x64` |
 | [xh-v0.26.2-x86_64-unknown-linux-musl.tar.gz](https://github.com/ducaale/xh/releases/download/v0.26.2/xh-v0.26.2-x86_64-unknown-linux-musl.tar.gz) | 4.4 MiB | `native/linux/x64/musl` |
 
-## Distribution status
-
-Reported by **120** distros on [repology.org](https://repology.org/project/xh). **25** are ✅ on the latest upstream release, **73** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.26.2` | ✅ latest |
-| Debian 14 | `0.26.2` | ✅ latest |
-| Debian 13 | `0.24.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.24.1` | ⚠️ outdated |
-| Arch | `0.26.2` | ✅ latest |
-| Homebrew | `0.26.2` | ✅ latest |
-| Nix unstable | `0.26.2` | ✅ latest |
-| Void | `0.26.2` | ✅ latest |
-| Alpine edge | `0.25.3` | ⚠️ outdated |
-| openSUSE Tumbleweed | `0.26.2` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for xh lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `xh` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -101,4 +84,4 @@ Install metadata for xh lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T04:40:28Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T04:59:12Z._
