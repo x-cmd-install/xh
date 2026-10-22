@@ -41,39 +41,39 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v0.26.2` (2026-07-26)
-- **Last commit**: 2026-09-05
+- **Latest**: `v0.26.3` (2026-10-21)
+- **Last commit**: 2026-10-21
 - **Assets in release**: 6
 
 ## Popularity
 
-- **Stars**: 8,139 · **Forks**: 151 · **Open issues**: 187 · **Contributors**: 51
+- **Stars**: 8,141 · **Forks**: 149 · **Open issues**: 187 · **Contributors**: 51
 
 ## Totals (cumulative)
 
-- **Releases**: 40 · **Merged PRs**: 260 · **Open PRs**: 4 · **Closed issues**: 152 · **Open issues**: 35 · **Commits**: 1861
+- **Releases**: 41 · **Merged PRs**: 260 · **Open PRs**: 4 · **Closed issues**: 152 · **Open issues**: 35 · **Commits**: 1864
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-21 | 0 | 0 | 0 | 1 | 2 | 0 |
-| last60d | 2026-08-22 | 0 | 2 | 0 | 2 | 2 | 3 |
-| 90d | 2026-07-23 | 1 | 2 | 1 | 5 | 3 | 3 |
-| last180d | 2026-04-24 | 2 | 6 | 2 | 7 | 4 | 24 |
-| 360d | 2025-10-26 | 3 | 18 | 2 | 17 | 7 | 91 |
-| last720d | 2024-10-31 | 7 | 39 | 3 | 29 | 12 | 209 |
+| 30d | 2026-09-22 | 1 | 0 | 0 | 1 | 2 | 3 |
+| last60d | 2026-08-23 | 1 | 2 | 0 | 2 | 2 | 6 |
+| 90d | 2026-07-24 | 2 | 2 | 1 | 5 | 3 | 6 |
+| last180d | 2026-04-25 | 3 | 6 | 2 | 7 | 4 | 27 |
+| 360d | 2025-10-27 | 4 | 18 | 2 | 17 | 7 | 94 |
+| last720d | 2024-11-01 | 8 | 39 | 3 | 29 | 12 | 212 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [xh-v0.26.2-aarch64-apple-darwin.tar.gz](https://github.com/ducaale/xh/releases/download/v0.26.2/xh-v0.26.2-aarch64-apple-darwin.tar.gz) | 4.0 MiB | `native/darwin/arm64` |
-| [xh-v0.26.2-aarch64-unknown-linux-musl.tar.gz](https://github.com/ducaale/xh/releases/download/v0.26.2/xh-v0.26.2-aarch64-unknown-linux-musl.tar.gz) | 4.0 MiB | `native/linux/arm64/musl` |
-| [xh-v0.26.2-arm-unknown-linux-gnueabihf.tar.gz](https://github.com/ducaale/xh/releases/download/v0.26.2/xh-v0.26.2-arm-unknown-linux-gnueabihf.tar.gz) | 3.7 MiB | `native/linux/arm/glibc` |
-| [xh-v0.26.2-x86_64-apple-darwin.tar.gz](https://github.com/ducaale/xh/releases/download/v0.26.2/xh-v0.26.2-x86_64-apple-darwin.tar.gz) | 4.2 MiB | `native/darwin/x64` |
-| [xh-v0.26.2-x86_64-pc-windows-msvc.zip](https://github.com/ducaale/xh/releases/download/v0.26.2/xh-v0.26.2-x86_64-pc-windows-msvc.zip) | 4.1 MiB | `native/win/x64` |
-| [xh-v0.26.2-x86_64-unknown-linux-musl.tar.gz](https://github.com/ducaale/xh/releases/download/v0.26.2/xh-v0.26.2-x86_64-unknown-linux-musl.tar.gz) | 4.4 MiB | `native/linux/x64/musl` |
+| [xh-v0.26.3-aarch64-apple-darwin.tar.gz](https://github.com/ducaale/xh/releases/download/v0.26.3/xh-v0.26.3-aarch64-apple-darwin.tar.gz) | 4.0 MiB | `native/darwin/arm64` |
+| [xh-v0.26.3-aarch64-unknown-linux-musl.tar.gz](https://github.com/ducaale/xh/releases/download/v0.26.3/xh-v0.26.3-aarch64-unknown-linux-musl.tar.gz) | 4.1 MiB | `native/linux/arm64/musl` |
+| [xh-v0.26.3-arm-unknown-linux-gnueabihf.tar.gz](https://github.com/ducaale/xh/releases/download/v0.26.3/xh-v0.26.3-arm-unknown-linux-gnueabihf.tar.gz) | 3.8 MiB | `native/linux/arm/glibc` |
+| [xh-v0.26.3-x86_64-apple-darwin.tar.gz](https://github.com/ducaale/xh/releases/download/v0.26.3/xh-v0.26.3-x86_64-apple-darwin.tar.gz) | 4.3 MiB | `native/darwin/x64` |
+| [xh-v0.26.3-x86_64-pc-windows-msvc.zip](https://github.com/ducaale/xh/releases/download/v0.26.3/xh-v0.26.3-x86_64-pc-windows-msvc.zip) | 4.2 MiB | `native/win/x64` |
+| [xh-v0.26.3-x86_64-unknown-linux-musl.tar.gz](https://github.com/ducaale/xh/releases/download/v0.26.3/xh-v0.26.3-x86_64-unknown-linux-musl.tar.gz) | 4.4 MiB | `native/linux/x64/musl` |
 
 ## Improve this data
 
@@ -84,4 +84,4 @@ Install metadata for xh lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261021.yml` · 2026-10-21T04:41:45Z._
+_Snapshot: `data/card/261022.yml` · 2026-10-22T04:35:22Z._
