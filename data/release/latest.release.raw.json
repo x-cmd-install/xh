@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 4188110,
       "digest": "sha256:50d61bd755942752b054297a1612ec191654f137f8939673cda83c686cb5b0f2",
-      "download_count": 73,
+      "download_count": 202,
       "created_at": "2026-10-21T07:24:17Z",
       "updated_at": "2026-10-21T07:24:18Z",
       "browser_download_url": "https://github.com/ducaale/xh/releases/download/v0.26.3/xh-v0.26.3-aarch64-apple-darwin.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 4253886,
       "digest": "sha256:a45d8cb6c234c6850f9fc2395fc3544ab7691fb511237f00179aedba1bcd525e",
-      "download_count": 104,
+      "download_count": 182,
       "created_at": "2026-10-21T07:22:54Z",
       "updated_at": "2026-10-21T07:22:54Z",
       "browser_download_url": "https://github.com/ducaale/xh/releases/download/v0.26.3/xh-v0.26.3-aarch64-unknown-linux-musl.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 3952386,
       "digest": "sha256:5e0e68dad1c0a8e1cf80972b8470802654dc36a4c1deeebcac85b074827f1702",
-      "download_count": 8,
+      "download_count": 11,
       "created_at": "2026-10-21T07:23:39Z",
       "updated_at": "2026-10-21T07:23:39Z",
       "browser_download_url": "https://github.com/ducaale/xh/releases/download/v0.26.3/xh-v0.26.3-arm-unknown-linux-gnueabihf.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 4458554,
       "digest": "sha256:b1c07e42238485bdcbed0982766f58b4daa631f0a33870100054ef5fbb4a3c4b",
-      "download_count": 25,
+      "download_count": 49,
       "created_at": "2026-10-21T07:33:52Z",
       "updated_at": "2026-10-21T07:33:53Z",
       "browser_download_url": "https://github.com/ducaale/xh/releases/download/v0.26.3/xh-v0.26.3-x86_64-apple-darwin.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 4367226,
       "digest": "sha256:23d92fd78ff6a93c4e1c4de3a6b614bb8a31999acb441793630bcc37f9cd6c45",
-      "download_count": 338,
+      "download_count": 592,
       "created_at": "2026-10-21T07:24:05Z",
       "updated_at": "2026-10-21T07:24:05Z",
       "browser_download_url": "https://github.com/ducaale/xh/releases/download/v0.26.3/xh-v0.26.3-x86_64-pc-windows-msvc.zip"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 4655245,
       "digest": "sha256:cbbf53bd76007d57d95e4bed8ba7fb3b7fcec22af4bdfc1ff119cd5de351e74f",
-      "download_count": 343,
+      "download_count": 676,
       "created_at": "2026-10-21T07:23:26Z",
       "updated_at": "2026-10-21T07:23:27Z",
       "browser_download_url": "https://github.com/ducaale/xh/releases/download/v0.26.3/xh-v0.26.3-x86_64-unknown-linux-musl.tar.gz"
