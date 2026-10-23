@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 8,141 · **Forks**: 149 · **Open issues**: 187 · **Contributors**: 51
+- **Stars**: 8,142 · **Forks**: 150 · **Open issues**: 187 · **Contributors**: 51
 
 ## Totals (cumulative)
 
-- **Releases**: 41 · **Merged PRs**: 260 · **Open PRs**: 4 · **Closed issues**: 152 · **Open issues**: 35 · **Commits**: 1864
+- **Releases**: 41 · **Merged PRs**: 260 · **Open PRs**: 5 · **Closed issues**: 152 · **Open issues**: 35 · **Commits**: 1864
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 1 | 0 | 0 | 1 | 2 | 3 |
-| last60d | 2026-08-23 | 1 | 2 | 0 | 2 | 2 | 6 |
-| 90d | 2026-07-24 | 2 | 2 | 1 | 5 | 3 | 6 |
-| last180d | 2026-04-25 | 3 | 6 | 2 | 7 | 4 | 27 |
-| 360d | 2025-10-27 | 4 | 18 | 2 | 17 | 7 | 94 |
-| last720d | 2024-11-01 | 8 | 39 | 3 | 29 | 12 | 212 |
+| 30d | 2026-09-23 | 1 | 0 | 1 | 1 | 2 | 3 |
+| last60d | 2026-08-24 | 1 | 2 | 1 | 2 | 2 | 6 |
+| 90d | 2026-07-25 | 2 | 2 | 2 | 5 | 3 | 6 |
+| last180d | 2026-04-26 | 3 | 6 | 3 | 7 | 4 | 27 |
+| 360d | 2025-10-28 | 4 | 18 | 3 | 17 | 7 | 94 |
+| last720d | 2024-11-02 | 8 | 39 | 4 | 29 | 12 | 212 |
 
 ## Release assets
 
@@ -75,6 +75,23 @@ Lowest-scoring checks:
 | [xh-v0.26.3-x86_64-pc-windows-msvc.zip](https://github.com/ducaale/xh/releases/download/v0.26.3/xh-v0.26.3-x86_64-pc-windows-msvc.zip) | 4.2 MiB | `native/win/x64` |
 | [xh-v0.26.3-x86_64-unknown-linux-musl.tar.gz](https://github.com/ducaale/xh/releases/download/v0.26.3/xh-v0.26.3-x86_64-unknown-linux-musl.tar.gz) | 4.4 MiB | `native/linux/x64/musl` |
 
+## Distribution status
+
+Reported by **125** distros on [repology.org](https://repology.org/project/xh). **11** are ✅ on the latest upstream release, **89** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.26.2` | ⚠️ outdated |
+| Debian 14 | `0.26.2` | ⚠️ outdated |
+| Debian 13 | `0.24.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.24.1` | ⚠️ outdated |
+| Arch | `0.26.3` | ✅ latest |
+| Homebrew | `0.26.3` | ✅ latest |
+| Nix unstable | `0.26.2` | ⚠️ outdated |
+| Void | `0.26.2` | ⚠️ outdated |
+| Alpine edge | `0.25.3` | ⚠️ outdated |
+| openSUSE Tumbleweed | `0.26.2` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for xh lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `xh` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -84,4 +101,4 @@ Install metadata for xh lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T04:35:22Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T04:40:45Z._
