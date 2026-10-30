@@ -16,8 +16,8 @@
   subrepo: terminal
   binname: xh
   visiblename: xh
-  version: 0.24.1
-  origversion: 0.24.1-1~ops2deb
+  version: 0.26.2
+  origversion: 0.26.2-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -25,8 +25,8 @@
   subrepo: terminal
   binname: xh
   visiblename: xh
-  version: 0.24.0
-  origversion: 0.24.0-1~ops2deb
+  version: 0.26.1
+  origversion: 0.26.1-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -34,92 +34,59 @@
   subrepo: terminal
   binname: xh
   visiblename: xh
-  version: 0.23.1
-  origversion: 0.23.1-1~ops2deb
+  version: 0.25.3
+  origversion: 0.25.3-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
+- repo: arch
+  subrepo: extra
+  srcname: xh
   binname: xh
   visiblename: xh
+  version: 0.26.3
+  origversion: 0.26.3-1
+  status: newest
+  summary: Friendly and fast tool for sending HTTP requests
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: xh
+  binname: xh
+  visiblename: xh
+  version: 0.26.3
+  origversion: 0.26.3-r0
+  status: newest
+  summary: Tool for sending HTTP requests
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: xh
+  binname: xh-doc
+  visiblename: xh-doc
   version: 0.23.0
-  origversion: 0.23.0-1~ops2deb
-  status: legacy
+  origversion: 0.23.0-r0
+  status: outdated
+  summary: Yet another HTTPie clone (documentation)
   maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: xh
-  visiblename: xh
-  version: 0.22.2
-  origversion: 0.22.2-1~ops2deb
-  status: legacy
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: xh
+  binname: xh-fish-completion
+  visiblename: xh-fish-completion
+  version: 0.23.0
+  origversion: 0.23.0-r0
+  status: outdated
+  summary: Fish completions for xh
   maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: xh
-  visiblename: xh
-  version: 0.22.0
-  origversion: 0.22.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: xh
-  visiblename: xh
-  version: 0.21.0
-  origversion: 0.21.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: xh
-  visiblename: xh
-  version: 0.20.1
-  origversion: 0.20.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: xh
-  visiblename: xh
-  version: 0.19.4
-  origversion: 0.19.4-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: xh
-  visiblename: xh
-  version: 0.19.3
-  origversion: 0.19.3-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: xh
-  visiblename: xh
-  version: 0.19.2
-  origversion: 0.19.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: xh
-  visiblename: xh
-  version: 0.18.0
-  origversion: 0.18.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
 - repo: alpine_3_17
   subrepo: community
   srcname: xh
@@ -133,15 +100,134 @@
     - jakub@jirutka.cz
   licenses:
     - MIT
-- repo: chimera
-  subrepo: user
+- repo: alpine_3_17
+  subrepo: community
+  srcname: xh
+  binname: xh
+  visiblename: xh
+  version: 0.17.0
+  origversion: 0.17.0-r0
+  status: outdated
+  summary: Yet another HTTPie clone
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: xh
+  binname: xh-bash-completion
+  visiblename: xh-bash-completion
+  version: 0.17.0
+  origversion: 0.17.0-r0
+  status: outdated
+  summary: Bash completions for xh
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: xh
+  binname: xh-fish-completion
+  visiblename: xh-fish-completion
+  version: 0.17.0
+  origversion: 0.17.0-r0
+  status: outdated
+  summary: Fish completions for xh
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: xh
+  binname: xh-zsh-completion
+  visiblename: xh-zsh-completion
+  version: 0.17.0
+  origversion: 0.17.0-r0
+  status: outdated
+  summary: Zsh completions for xh
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: xh
+  binname: xh
+  visiblename: xh
+  version: 0.18.0
+  origversion: 0.18.0-r0
+  status: outdated
+  summary: Yet another HTTPie clone
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: xh
+  binname: xh-bash-completion
+  visiblename: xh-bash-completion
+  version: 0.18.0
+  origversion: 0.18.0-r0
+  status: outdated
+  summary: Bash completions for xh
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
   srcname: xh
   binname: xh-doc
   visiblename: xh-doc
-  version: 0.26.3
-  origversion: 0.26.3-r0
-  status: newest
-  summary: Tool for sending HTTP requests (documentation)
+  version: 0.18.0
+  origversion: 0.18.0-r0
+  status: outdated
+  summary: Yet another HTTPie clone (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: xh
+  binname: xh-fish-completion
+  visiblename: xh-fish-completion
+  version: 0.18.0
+  origversion: 0.18.0-r0
+  status: outdated
+  summary: Fish completions for xh
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: xh
+  binname: xh-zsh-completion
+  visiblename: xh-zsh-completion
+  version: 0.18.0
+  origversion: 0.18.0-r0
+  status: outdated
+  summary: Zsh completions for xh
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: xh
+  binname: xh
+  visiblename: xh
+  version: 0.20.1
+  origversion: 0.20.1-r0
+  status: outdated
+  summary: Yet another HTTPie clone
+  maintainers:
+    - jakub@jirutka.cz
   licenses:
     - MIT
 - repo: pkgsrc_2026_2
@@ -156,147 +242,6 @@
     - pkgsrc-users@netbsd.org
   categories:
     - www
-- repo: alpine_3_17
-  subrepo: community
-  srcname: xh
-  binname: xh
-  visiblename: xh
-  version: 0.17.0
-  origversion: 0.17.0-r0
-  status: outdated
-  summary: Yet another HTTPie clone
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: xh
-  binname: xh-bashcomp
-  visiblename: xh-bashcomp
-  version: 0.26.3
-  origversion: 0.26.3-r0
-  status: newest
-  summary: Tool for sending HTTP requests (bash completions)
-  licenses:
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: xh
-  binname: xh-bash-completion
-  visiblename: xh-bash-completion
-  version: 0.17.0
-  origversion: 0.17.0-r0
-  status: outdated
-  summary: Bash completions for xh
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: xh
-  binname: xh-fish-completion
-  visiblename: xh-fish-completion
-  version: 0.17.0
-  origversion: 0.17.0-r0
-  status: outdated
-  summary: Fish completions for xh
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: xh
-  binname: xh-zsh-completion
-  visiblename: xh-zsh-completion
-  version: 0.17.0
-  origversion: 0.17.0-r0
-  status: outdated
-  summary: Zsh completions for xh
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: xh
-  binname: xh
-  visiblename: xh
-  version: 0.18.0
-  origversion: 0.18.0-r0
-  status: outdated
-  summary: Yet another HTTPie clone
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: xh
-  binname: xh-bash-completion
-  visiblename: xh-bash-completion
-  version: 0.18.0
-  origversion: 0.18.0-r0
-  status: outdated
-  summary: Bash completions for xh
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: xh
-  binname: xh-doc
-  visiblename: xh-doc
-  version: 0.18.0
-  origversion: 0.18.0-r0
-  status: outdated
-  summary: Yet another HTTPie clone (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: xh
-  binname: xh-fish-completion
-  visiblename: xh-fish-completion
-  version: 0.18.0
-  origversion: 0.18.0-r0
-  status: outdated
-  summary: Fish completions for xh
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_18
-  subrepo: community
-  srcname: xh
-  binname: xh-zsh-completion
-  visiblename: xh-zsh-completion
-  version: 0.18.0
-  origversion: 0.18.0-r0
-  status: outdated
-  summary: Zsh completions for xh
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: xh
-  binname: xh
-  visiblename: xh
-  version: 0.20.1
-  origversion: 0.20.1-r0
-  status: outdated
-  summary: Yet another HTTPie clone
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
 - repo: alpine_3_19
   subrepo: community
   srcname: xh
@@ -436,32 +381,6 @@
   origversion: 0.23.0-r0
   status: outdated
   summary: Bash completions for xh
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: xh
-  binname: xh-doc
-  visiblename: xh-doc
-  version: 0.23.0
-  origversion: 0.23.0-r0
-  status: outdated
-  summary: Yet another HTTPie clone (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: xh
-  binname: xh-fish-completion
-  visiblename: xh-fish-completion
-  version: 0.23.0
-  origversion: 0.23.0-r0
-  status: outdated
-  summary: Fish completions for xh
   maintainers:
     - jakub@jirutka.cz
   licenses:
@@ -490,17 +409,6 @@
   summary: Yet another HTTPie clone
   maintainers:
     - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: xh
-  binname: xh
-  visiblename: xh
-  version: 0.26.2
-  origversion: 0.26.2-1
-  status: outdated
-  summary: Friendly and fast tool for sending HTTP requests
   licenses:
     - MIT
 - repo: alpine_3_22
@@ -794,37 +702,26 @@
     - MIT
   categories:
     - Networking/WWW
-- repo: arch
-  subrepo: extra
+- repo: chimera
+  subrepo: user
   srcname: xh
-  binname: xh
-  visiblename: xh
+  binname: xh-bashcomp
+  visiblename: xh-bashcomp
   version: 0.26.3
-  origversion: 0.26.3-1
+  origversion: 0.26.3-r0
   status: newest
-  summary: Friendly and fast tool for sending HTTP requests
+  summary: Tool for sending HTTP requests (bash completions)
   licenses:
     - MIT
 - repo: chimera
   subrepo: user
   srcname: xh
-  binname: xh
-  visiblename: xh
+  binname: xh-doc
+  visiblename: xh-doc
   version: 0.26.3
   origversion: 0.26.3-r0
   status: newest
-  summary: Tool for sending HTTP requests
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: xh
-  binname: xh
-  visiblename: xh
-  version: 0.26.3
-  origversion: 0.26.3-1
-  status: newest
-  summary: Friendly and fast tool for sending HTTP requests
+  summary: Tool for sending HTTP requests (documentation)
   licenses:
     - MIT
 - repo: chimera
@@ -1159,6 +1056,28 @@
   summary: Friendly and fast tool for sending HTTP requests
   licenses:
     - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: xh
+  binname: xh
+  visiblename: xh
+  version: 0.26.2
+  origversion: 0.26.2-1
+  status: outdated
+  summary: Friendly and fast tool for sending HTTP requests
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: xh
+  binname: xh
+  visiblename: xh
+  version: 0.26.3
+  origversion: 0.26.3-1
+  status: newest
+  summary: Friendly and fast tool for sending HTTP requests
+  licenses:
+    - MIT
 - repo: nix_stable_24_05
   srcname: xh
   visiblename: xh
@@ -1220,9 +1139,9 @@
 - repo: nix_unstable
   srcname: xh
   visiblename: xh
-  version: 0.26.2
+  version: 0.26.3
   origversion: null
-  status: outdated
+  status: newest
   summary: Friendly and fast tool for sending HTTP requests
   maintainers:
     - defelo@github
@@ -1460,35 +1379,116 @@
   subrepo: terminal
   binname: xh
   visiblename: xh
-  version: 0.26.2
-  origversion: 0.26.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: xh
-  visiblename: xh
-  version: 0.26.1
-  origversion: 0.26.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: xh
-  visiblename: xh
-  version: 0.25.3
-  origversion: 0.25.3-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: xh
-  visiblename: xh
   version: 0.25.0
   origversion: 0.25.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: xh
+  visiblename: xh
+  version: 0.24.1
+  origversion: 0.24.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: xh
+  visiblename: xh
+  version: 0.24.0
+  origversion: 0.24.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: xh
+  visiblename: xh
+  version: 0.23.1
+  origversion: 0.23.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: xh
+  visiblename: xh
+  version: 0.23.0
+  origversion: 0.23.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: xh
+  visiblename: xh
+  version: 0.22.2
+  origversion: 0.22.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: xh
+  visiblename: xh
+  version: 0.22.0
+  origversion: 0.22.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: xh
+  visiblename: xh
+  version: 0.21.0
+  origversion: 0.21.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: xh
+  visiblename: xh
+  version: 0.20.1
+  origversion: 0.20.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: xh
+  visiblename: xh
+  version: 0.19.4
+  origversion: 0.19.4-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: xh
+  visiblename: xh
+  version: 0.19.3
+  origversion: 0.19.3-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: xh
+  visiblename: xh
+  version: 0.19.2
+  origversion: 0.19.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: xh
+  visiblename: xh
+  version: 0.18.0
+  origversion: 0.18.0-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
