@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.26.3` (2026-10-21)
-- **Last commit**: 2026-10-23
+- **Last commit**: 2026-10-29
 - **Assets in release**: 6
 
 ## Popularity
 
-- **Stars**: 8,155 · **Forks**: 149 · **Open issues**: 187 · **Contributors**: 52
+- **Stars**: 8,154 · **Forks**: 150 · **Open issues**: 187 · **Contributors**: 53
 
 ## Totals (cumulative)
 
-- **Releases**: 41 · **Merged PRs**: 261 · **Open PRs**: 4 · **Closed issues**: 152 · **Open issues**: 35 · **Commits**: 1866
+- **Releases**: 41 · **Merged PRs**: 262 · **Open PRs**: 4 · **Closed issues**: 152 · **Open issues**: 35 · **Commits**: 1868
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 1 | 1 | 0 | 1 | 2 | 4 |
-| last60d | 2026-08-30 | 1 | 3 | 0 | 2 | 2 | 7 |
-| 90d | 2026-07-31 | 1 | 3 | 1 | 5 | 2 | 7 |
-| last180d | 2026-05-02 | 3 | 6 | 2 | 7 | 3 | 22 |
-| 360d | 2025-11-03 | 4 | 19 | 2 | 17 | 7 | 95 |
-| last720d | 2024-11-08 | 8 | 40 | 3 | 29 | 12 | 214 |
+| 30d | 2026-09-30 | 1 | 2 | 0 | 1 | 2 | 5 |
+| last60d | 2026-08-31 | 1 | 4 | 0 | 2 | 2 | 8 |
+| 90d | 2026-08-01 | 1 | 4 | 1 | 5 | 2 | 8 |
+| last180d | 2026-05-03 | 3 | 7 | 2 | 7 | 3 | 23 |
+| 360d | 2025-11-04 | 4 | 20 | 2 | 17 | 7 | 96 |
+| last720d | 2024-11-09 | 8 | 41 | 3 | 29 | 12 | 216 |
 
 ## Release assets
 
@@ -77,7 +77,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **125** distros on [repology.org](https://repology.org/project/xh). **21** are ✅ on the latest upstream release, **79** are ⚠️ on an older version.
+Reported by **125** distros on [repology.org](https://repology.org/project/xh). **22** are ✅ on the latest upstream release, **78** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,7 +87,7 @@ Reported by **125** distros on [repology.org](https://repology.org/project/xh). 
 | Ubuntu 26.04 LTS | `0.24.1` | ⚠️ outdated |
 | Arch | `0.26.3` | ✅ latest |
 | Homebrew | `0.26.3` | ✅ latest |
-| Nix unstable | `0.26.2` | ⚠️ outdated |
+| Nix unstable | `0.26.3` | ✅ latest |
 | Void | `0.26.3` | ✅ latest |
 | Alpine edge | `0.25.3` | ⚠️ outdated |
 | openSUSE Tumbleweed | `0.26.2` | ⚠️ outdated |
@@ -101,4 +101,4 @@ Install metadata for xh lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261029.yml` · 2026-10-29T05:39:43Z._
+_Snapshot: `data/card/261030.yml` · 2026-10-30T05:42:55Z._
