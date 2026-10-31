@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 8,154 · **Forks**: 150 · **Open issues**: 187 · **Contributors**: 53
+- **Stars**: 8,159 · **Forks**: 151 · **Open issues**: 188 · **Contributors**: 53
 
 ## Totals (cumulative)
 
-- **Releases**: 41 · **Merged PRs**: 262 · **Open PRs**: 4 · **Closed issues**: 152 · **Open issues**: 35 · **Commits**: 1868
+- **Releases**: 41 · **Merged PRs**: 262 · **Open PRs**: 6 · **Closed issues**: 152 · **Open issues**: 36 · **Commits**: 1868
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 1 | 2 | 0 | 1 | 2 | 5 |
-| last60d | 2026-08-31 | 1 | 4 | 0 | 2 | 2 | 8 |
-| 90d | 2026-08-01 | 1 | 4 | 1 | 5 | 2 | 8 |
-| last180d | 2026-05-03 | 3 | 7 | 2 | 7 | 3 | 23 |
-| 360d | 2025-11-04 | 4 | 20 | 2 | 17 | 7 | 96 |
-| last720d | 2024-11-09 | 8 | 41 | 3 | 29 | 12 | 216 |
+| 30d | 2026-10-01 | 1 | 2 | 2 | 1 | 3 | 5 |
+| last60d | 2026-09-01 | 1 | 4 | 2 | 2 | 3 | 8 |
+| 90d | 2026-08-02 | 1 | 4 | 3 | 5 | 3 | 8 |
+| last180d | 2026-05-04 | 3 | 7 | 4 | 7 | 4 | 23 |
+| 360d | 2025-11-05 | 4 | 20 | 4 | 17 | 8 | 96 |
+| last720d | 2024-11-10 | 8 | 41 | 5 | 29 | 13 | 216 |
 
 ## Release assets
 
@@ -77,11 +77,11 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **125** distros on [repology.org](https://repology.org/project/xh). **22** are ✅ on the latest upstream release, **78** are ⚠️ on an older version.
+Reported by **126** distros on [repology.org](https://repology.org/project/xh). **24** are ✅ on the latest upstream release, **76** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `0.26.2` | ⚠️ outdated |
+| Debian unstable | `0.26.2` | 🪦 legacy |
 | Debian 14 | `0.26.2` | ⚠️ outdated |
 | Debian 13 | `0.24.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.24.1` | ⚠️ outdated |
@@ -101,4 +101,4 @@ Install metadata for xh lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T05:42:55Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T05:27:42Z._
