@@ -1,3 +1,35 @@
+- repo: homebrew
+  srcname: xh
+  visiblename: xh
+  version: 0.26.3
+  origversion: null
+  status: newest
+  summary: Friendly and fast tool for sending HTTP requests
+- repo: homebrew
+  srcname: xh
+  visiblename: xh
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Friendly and fast tool for sending HTTP requests
+- repo: wakemeops
+  subrepo: terminal
+  binname: xh
+  visiblename: xh
+  version: 0.18.0
+  origversion: 0.18.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: xh
+  visiblename: xh
+  version: 0.17.0
+  origversion: 0.17.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: wikidata
   srcname: Q105529768
   visiblename: xh
@@ -7,6 +39,19 @@
   summary: command-line HTTP client
   licenses:
     - MIT License
+- repo: alpine_3_20
+  subrepo: community
+  srcname: xh
+  binname: xh-doc
+  visiblename: xh-doc
+  version: 0.22.0
+  origversion: 0.22.0-r0
+  status: outdated
+  summary: Yet another HTTPie clone (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
 - repo: alpine_3_17
   subrepo: community
   srcname: xh
@@ -224,19 +269,6 @@
   origversion: 0.22.0-r0
   status: outdated
   summary: Bash completions for xh
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: xh
-  binname: xh-doc
-  visiblename: xh-doc
-  version: 0.22.0
-  origversion: 0.22.0-r0
-  status: outdated
-  summary: Yet another HTTPie clone (documentation)
   maintainers:
     - jakub@jirutka.cz
   licenses:
@@ -592,15 +624,6 @@
     - jakub@jirutka.cz
   licenses:
     - MIT
-- repo: wakemeops
-  subrepo: terminal
-  binname: xh
-  visiblename: xh
-  version: 0.15.0
-  origversion: 0.15.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: alt_p11
   srcname: xh
   binnames:
@@ -871,20 +894,6 @@
     - Unicode-DFS-2016
   categories:
     - net-misc
-- repo: homebrew
-  srcname: xh
-  visiblename: xh
-  version: 0.26.3
-  origversion: null
-  status: newest
-  summary: Friendly and fast tool for sending HTTP requests
-- repo: homebrew
-  srcname: xh
-  visiblename: xh
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Friendly and fast tool for sending HTTP requests
 - repo: kali_rolling
   subrepo: main
   srcname: rust-xh
@@ -1274,9 +1283,9 @@
   srcname: bin/xh
   binname: bin/xh
   visiblename: bin/xh
-  version: 0.26.2
+  version: 0.26.3
   origversion: null
-  status: outdated
+  status: newest
   maintainers:
     - anton@samokhvalov.xyz
   categories:
@@ -1371,6 +1380,33 @@
     - void@placeviolette.net
   licenses:
     - MIT
+- repo: wakemeops
+  subrepo: terminal
+  binname: xh
+  visiblename: xh
+  version: 0.16.1
+  origversion: 0.16.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: xh
+  visiblename: xh
+  version: 0.16.0
+  origversion: 0.16.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: terminal
+  binname: xh
+  visiblename: xh
+  version: 0.15.0
+  origversion: 0.15.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: wakemeops
   subrepo: terminal
   binname: xh
@@ -1512,42 +1548,6 @@
   visiblename: xh
   version: 0.19.2
   origversion: 0.19.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: xh
-  visiblename: xh
-  version: 0.18.0
-  origversion: 0.18.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: xh
-  visiblename: xh
-  version: 0.17.0
-  origversion: 0.17.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: xh
-  visiblename: xh
-  version: 0.16.1
-  origversion: 0.16.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: xh
-  visiblename: xh
-  version: 0.16.0
-  origversion: 0.16.0-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
