@@ -30,7 +30,7 @@ x install xh
 
 评分最低的几项:
 
-- **Code-Review** (4/10) — Found 6/15 approved changesets -- score normalized to 4
+- **Code-Review** (4/10) — Found 8/20 approved changesets -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
@@ -47,7 +47,7 @@ x install xh
 
 ## 流行度
 
-- **Star**: 8,165 · **Fork**: 153 · **开放 issue**: 189 · **贡献者**: 53
+- **Star**: 8,167 · **Fork**: 153 · **开放 issue**: 189 · **贡献者**: 53
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install xh
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 1 | 2 | 0 | 3 | 2 | 5 |
-| last60d | 2026-09-04 | 1 | 3 | 0 | 4 | 2 | 5 |
-| 90d | 2026-08-05 | 1 | 4 | 1 | 7 | 2 | 8 |
-| last180d | 2026-05-07 | 3 | 7 | 2 | 9 | 3 | 21 |
-| 360d | 2025-11-08 | 4 | 20 | 2 | 19 | 7 | 96 |
-| last720d | 2024-11-13 | 8 | 41 | 3 | 31 | 12 | 216 |
+| 30d | 2026-10-05 | 1 | 2 | 0 | 3 | 2 | 5 |
+| last60d | 2026-09-05 | 1 | 2 | 0 | 3 | 2 | 5 |
+| 90d | 2026-08-06 | 1 | 4 | 1 | 6 | 2 | 8 |
+| last180d | 2026-05-08 | 3 | 7 | 2 | 9 | 3 | 21 |
+| 360d | 2025-11-09 | 4 | 20 | 2 | 19 | 7 | 96 |
+| last720d | 2024-11-14 | 8 | 41 | 3 | 31 | 12 | 216 |
 
 ## Release 资产
 
@@ -77,11 +77,11 @@ x install xh
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/xh) 上共有 **126** 个发行版报告此项目。**28** 个 ✅ 已是最新上游版本，**72** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/xh) 上共有 **125** 个发行版报告此项目。**28** 个 ✅ 已是最新上游版本，**72** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Debian unstable | `0.26.2` | 🪦 legacy |
+| Debian unstable | `0.26.3` | ✅ latest |
 | Debian 14 | `0.26.2` | ⚠️ outdated |
 | Debian 13 | `0.24.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.24.1` | ⚠️ outdated |
@@ -101,4 +101,4 @@ xh 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261103.yml` · 2026-11-03T06:39:48Z._
+_数据快照: `data/card/261104.yml` · 2026-11-04T06:21:42Z._
