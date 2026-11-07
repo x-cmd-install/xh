@@ -14,11 +14,11 @@ x install xh
 
 ## Code insight
 
-Total: **14,704** lines of code across **38** files in the top 5 languages.
+Total: **14,797** lines of code across **38** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 13,792 | 555 | 1,631 | 33 |
+| Rust | 13,885 | 555 | 1,639 | 33 |
 | PowerShell | 220 | 3 | 10 | 2 |
 | Bash | 191 | 0 | 3 | 1 |
 | Elvish | 159 | 0 | 2 | 1 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.26.3` (2026-10-21)
-- **Last commit**: 2026-10-29
+- **Last commit**: 2026-11-06
 - **Assets in release**: 6
 
 ## Popularity
 
-- **Stars**: 8,170 · **Forks**: 154 · **Open issues**: 190 · **Contributors**: 53
+- **Stars**: 8,170 · **Forks**: 155 · **Open issues**: 190 · **Contributors**: 54
 
 ## Totals (cumulative)
 
-- **Releases**: 41 · **Merged PRs**: 262 · **Open PRs**: 5 · **Closed issues**: 154 · **Open issues**: 36 · **Commits**: 1868
+- **Releases**: 41 · **Merged PRs**: 263 · **Open PRs**: 4 · **Closed issues**: 155 · **Open issues**: 35 · **Commits**: 1871
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 1 | 2 | 1 | 3 | 2 | 5 |
-| last60d | 2026-09-07 | 1 | 2 | 1 | 3 | 3 | 5 |
-| 90d | 2026-08-08 | 1 | 4 | 2 | 6 | 3 | 8 |
-| last180d | 2026-05-10 | 3 | 7 | 3 | 9 | 4 | 21 |
-| 360d | 2025-11-11 | 4 | 20 | 3 | 19 | 8 | 96 |
-| last720d | 2024-11-16 | 8 | 41 | 4 | 31 | 13 | 216 |
+| 30d | 2026-10-08 | 1 | 3 | 0 | 4 | 1 | 7 |
+| last60d | 2026-09-08 | 1 | 3 | 0 | 4 | 2 | 7 |
+| 90d | 2026-08-09 | 1 | 5 | 1 | 7 | 2 | 10 |
+| last180d | 2026-05-11 | 3 | 8 | 2 | 10 | 3 | 23 |
+| 360d | 2025-11-12 | 4 | 21 | 2 | 20 | 7 | 98 |
+| last720d | 2024-11-17 | 8 | 42 | 3 | 32 | 12 | 219 |
 
 ## Release assets
 
@@ -77,7 +77,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **126** distros on [repology.org](https://repology.org/project/xh). **29** are ✅ on the latest upstream release, **72** are ⚠️ on an older version.
+Reported by **127** distros on [repology.org](https://repology.org/project/xh). **30** are ✅ on the latest upstream release, **72** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -101,4 +101,4 @@ Install metadata for xh lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T06:30:00Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T05:52:46Z._
